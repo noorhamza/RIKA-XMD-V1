@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "7doXhaaL#f1o_eUPzrhsuZlfcMBDXTcM9qYusDB52xaGLl3P-UnM",
+SESSION_ID: process.env.SESSION_ID || "𝚁𝙸𝙺𝙰~𝚇𝙼𝙳=XpAiWABB#pBEh61cChu82X6HBhgdvFO55pvNeE-Zt4wNxAlQghwk",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*уσυя ѕтαтυѕ ѕєєη ву яιкα χм∂ 🌷🤍*",
 // set the auto reply massage on status reply  
@@ -21,7 +21,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/7z5x3q.jpg",
 // add custom menu and mention reply image url
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // make true if want welcome and goodbye message in groups 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -35,7 +35,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94766619363",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923054840098",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𝑆𝐻𝜟𝐌𝐈𝜥𝐀 𝐷𝛯𝚴ꪊꪝ𝜟𝚴",
 // add bot owner name
@@ -69,12 +69,12 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "94766619363",
+DEV: process.env.DEV || "923054840098",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
 // make it true for auto recoding 
 };
